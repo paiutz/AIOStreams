@@ -1,5 +1,34 @@
 # Changelog
 
+## [2.9.0](https://github.com/Viren070/AIOStreams/compare/v2.8.2...v2.9.0) (2025-08-04)
+
+
+### Features
+
+* add configurable year tolerance during year matching ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* add gdrive builtin addon ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* add torbox search builtin addon ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* allow deleting user ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* allow setting allowed regexes for all users ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c)), closes [#244](https://github.com/Viren070/AIOStreams/issues/244)
+* make `BASE_URL` required ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* update ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+
+
+### Bug Fixes
+
+* **builtins/torbox-search:** adjust validation schemas for api ([6d8ea42](https://github.com/Viren070/AIOStreams/commit/6d8ea4274d07f2c257ce2dce0da7d6e68c420671))
+* **builtins/torbox-search:** ensure errors are logged during usenet fetch ([4147ea3](https://github.com/Viren070/AIOStreams/commit/4147ea3c7e735f804dae63c6eadf86985bdc7534))
+* **builtins/torbox-search:** ensure files are always added during scrape ([23b8aa1](https://github.com/Viren070/AIOStreams/commit/23b8aa1c18daccb43dd78441251fc82c5c682bd0))
+* **builtins/torbox:** set type property at root to workaround https://github.com/colinhacks/zod/issues/2655 ([c66ef9e](https://github.com/Viren070/AIOStreams/commit/c66ef9e2f45606c495fc90be272617ad29b936c4))
+* correctly handle server side forcing of deprecated public proxy URLs ([1cdb0f3](https://github.com/Viren070/AIOStreams/commit/1cdb0f376efc72cf49d0842fd2f7725e353468a9))
+* ensure forced proxy information is always checked/used when provided ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* override type to live for usa tv, argentina tv, and debridio tv ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* simplify and fix bluray remux detection ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* skip internal middleware in development environment ([8f4724e](https://github.com/Viren070/AIOStreams/commit/8f4724e5b3978378e297b2dcbdc9cb7020630b7c))
+* skip mediafusion found but filtered message stream ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* **stremthru-store:** ensure release groups don't get parsed as indexer ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+* throw error on rate limit exceeded streams ([05d3cac](https://github.com/Viren070/AIOStreams/commit/05d3cac778b896c5f596f4cdd5ef33c24712487c))
+
 ## [2.8.2](https://github.com/Viren070/AIOStreams/compare/v2.8.1...v2.8.2) (2025-07-30)
 
 
